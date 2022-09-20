@@ -70,7 +70,7 @@
         Collecting all visualised graph.
     wrangled_data
         Collecting all wrangled data.
-# Instructions:
+# Hints:
     "1.data_wrangling.py 2.pre_analysis.py 3.modeling.py" should run one by one in order, 
     because each file need to use some results that the generated in previouse files.
     championVSserver.py is fine that this python file is independent with the other.
