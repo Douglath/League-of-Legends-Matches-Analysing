@@ -73,7 +73,7 @@ Collecting all wrangled data.
 # Source code usage:
 * 1.data_wrangling.py 
 * 2.pre_analysis.py 
-* 3.modeling.py 
+* 3.modeling.py <br/>
 should run one by one in order, 
 because each file need to use some results that the generated in previouse files.
 championVSserver.py is fine that this python file is independent with the other.
