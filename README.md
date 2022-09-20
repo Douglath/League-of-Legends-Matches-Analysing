@@ -11,12 +11,12 @@ the kda distribution with and without removing outliers. Generating dataset
 that contains the merged files with(global_d.csv) and without(global_d_ro.csv)
 outliers to ./wrangled_data
 ### data_wrangling.py output:
- plots/hist_kda_dis.png
- plots/box_kda_dis.png
- plots/hist_kda_ro_dis.png
- plots/box_kda_ro_dis.png
- wrangled_data/global_d.csv
- wrangled_data/global_d_ro.csv
+ * plots/hist_kda_dis.png
+ * plots/box_kda_dis.png
+ * plots/hist_kda_ro_dis.png
+ * plots/box_kda_ro_dis.png
+ * wrangled_data/global_d.csv
+ * wrangled_data/global_d_ro.csv
 ## pre_analysis.py
 Analysing the processed data from ./wrangled_data, find the majority part
 (level 13,14) in processed data(global_d), take the majority part of data
@@ -29,39 +29,39 @@ variables and kda. Visualising the relationship between kda, kills, deaths and
 assists, group by minions_killed. Visualising the relationship between kda, 
 damage_building, turret_kills and gold_earned.
 ### pre_analysis.py output:
- plots/hist_level_dis.png
- wrangled_data/mj_t.csv
- wrangled_data/mj_o.csv
- analysis_data/corr_d_tj.csv
- plots/heat_corr_tj.png
- analysis_data/corr_d_other.csv
- plots/heat_corr_other.png
- plots/kda_corr.png
- analysis_data/nmi_d_tj.csv
- plots/heat_nmi_tj.png
- analysis_data/nmi_d_other.csv
- plots/heat_nmi_other.png
- plots/kda_nmi.png
- plots/pair_kda_tj.png
- plots/pair_kda_other.png
- plots/pair_kda_dmg_tj.png
- plots/pair_kda_dmg_other.png
+ * plots/hist_level_dis.png
+ * wrangled_data/mj_t.csv
+ * wrangled_data/mj_o.csv
+ * analysis_data/corr_d_tj.csv
+ * plots/heat_corr_tj.png
+ * analysis_data/corr_d_other.csv
+ * plots/heat_corr_other.png
+ * plots/kda_corr.png
+ * analysis_data/nmi_d_tj.csv
+ * plots/heat_nmi_tj.png
+ * analysis_data/nmi_d_other.csv
+ * plots/heat_nmi_other.png
+ * plots/kda_nmi.png
+ * plots/pair_kda_tj.png
+ * plots/pair_kda_other.png
+ * plots/pair_kda_dmg_tj.png
+ * plots/pair_kda_dmg_other.png
 ## modeling.py
 Modeling the majority data of mj_t.csv and mj_o.csv from ./wrangled_data, using
 regression and knn methods, gnerating a few key informations of each model on the 
 terminal. Visualising their result.
 ### modeling.py output:
- plots/regression.png
- plots/regression_res.png
- plots/ds_kda_dis.png
- plots/cm_t.png
- plots/cm_o.png
+ * plots/regression.png
+ * plots/regression_res.png
+ * plots/ds_kda_dis.png
+ * plots/cm_t.png
+ * plots/cm_o.png
 ## championVSserver.py
 Get the champions with top 10 everage kda in each server, give the visualisation
 ###championVSserver.py output:
- plots/NAtop10.png
- plots/KRtop10.png
- plots/EUtop10.png
+ * plots/NAtop10.png
+ * plots/KRtop10.png
+ * plots/EUtop10.png
 ## analysis_data
 Collecting the analysised data.
 ## data
