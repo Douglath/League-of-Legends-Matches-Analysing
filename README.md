@@ -11,7 +11,7 @@ the kda distribution with and without removing outliers. Generating dataset
 that contains the merged files with(global_d.csv) and without(global_d_ro.csv)
 outliers to ./wrangled_data
 ### data_wrangling.py output:
- * plots/hist_kda_dis.png
+ * ![Image text]plots/hist_kda_dis.png
  * plots/box_kda_dis.png
  * plots/hist_kda_ro_dis.png
  * plots/box_kda_ro_dis.png
