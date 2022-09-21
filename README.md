@@ -58,7 +58,7 @@ terminal. Visualising their result.
  * plots/cm_o.png
 ## championVSserver.py
 Get the champions with top 10 everage kda in each server, give the visualisation
-###championVSserver.py output:
+### championVSserver.py output:
  * plots/NAtop10.png
  * plots/KRtop10.png
  * plots/EUtop10.png
